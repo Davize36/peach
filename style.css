@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+.signup-page{
+    display: flex;
+    background-color: #db2845;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.signup-page button{
+    margin-top: 10px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: none;
+
+}
+/* .login a :hover{
+    background-color: #db2845;
+    transition: ease-out, 1s;
+    transform: scale(1.1);
+     
+} */
+
+.signup-login{
+    background-color: #ee526c;
+    /* padding: 150px; */
+    color: white;
+    justify-items: center;
+    align-content: center;
+    width: 500px;
+    height: 360px;
+}
+.signup-form{
+    background-color: white;
+    padding: 40px 40px 0px 40px;
+    width: 500px;
+    height: 460px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.sign-up{
+    margin-top: 10px;
+}
+.signup-form h4{
+    color: #db2845;
+    font-weight:bolder ;
+    font-size: 20px;
+    text-align: center;
+    
+
+}
+.sign-up input{
+    width: 90%;
+    height: 30px;
+    padding: 5px;
+    
+}
+.sign-up label{
+    font-size: 20px;
+}
+.sign-up button{
+    background-color: #db2845;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+   
+.signin-page{
+    display: flex;
+    background-color: #007bff;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.signin-form{
+    background-color: white;
+    padding: 40px 40px 0px 40px;
+    width: 450px;
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    align-content: center;
+}
+.sign-in{
+    margin-top: 10px;
+}
+.sign-in input{
+    width: 90%;
+    height: 20px;
+    padding: 5px;
+}
+.sign-in button{
+    background-color: #007bff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    width: 93%;
+}
+.login-signup{
+    background-color: #1687ff;
+    /* padding: 150px; */
+    color: white;
+    justify-items: center;
+    align-content: center;
+    width: 450px;
+    height: 330px;
+}
+.login-signup button{
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    border: none;
+    color: #1687ff;
+    margin-top: 10px;
+}
